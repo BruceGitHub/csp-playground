@@ -1,0 +1,14 @@
+{
+    "document-uri": "http://0.0.0.0:8080/test.php",
+    "referrer": "http://0.0.0.0:8080/test.php",
+    "violated-directive": "style-src-elem",
+    "effective-directive": "style-src-elem",
+    "original-policy": "report-uri http://127.0.0.1:8080/report.php;default-src 'none';",
+    "disposition": "report",
+    "blocked-uri": "https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css",
+    "line-number": 6,
+    "source-file": "http://0.0.0.0:8080/test.php",
+    "status-code": 200,
+    "script-sample": ""
+}
+##
