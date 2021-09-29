@@ -11,3 +11,4 @@ make start
  
 Open browser `http://0.0.0.0:8080` and test! 
 
+![Demo](screen-csp-playground.gif)
