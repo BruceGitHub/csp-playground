@@ -2,12 +2,13 @@
 <html>
 
 <head>
+    <title>Basic Csp Playground </title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 </head>
 
 <body>
     <div class="bg-success p-2 text-dark bg-opacity-25">
-        <h1>Csp Playground</h1>
+        <h1>Basic Csp Playground</h1>
         <input class="btn btn-primary" type="submit" name="submit" value="TEST" onclick="javascript:doTest()" />
         <br>
         <br>
@@ -45,13 +46,13 @@
             }
         </script>
     </div>
-    <div class="container  m-0">
-        <div class="row">
-            <div class="col-7 p-0 m-0">
-                <iframe style='height:700px;width:100%' id="testframe" src="http://0.0.0.0:8080/test.php"></iframe>
+    <div class="container m-0">
+        <div class="row" >
+            <div class="col-7">
+                <iframe style='height:700px;' width="100%"   id="testframe" src="http://0.0.0.0:8080/test.php"></iframe>
             </div>
-            <div class="col-5 p-0 m-0">
-                <iframe style='height:700px;width:100%' id="violationframe" src="http://0.0.0.0:8080/getViolations.php"></iframe>
+            <div class="col">
+                <iframe style='height:700px'  width="100%" id="violationframe" src="http://0.0.0.0:8080/getViolations.php"></iframe>
             </div>
         </div>
     </div>
